@@ -1,0 +1,2205 @@
+- user: platform:root
+  relation: platform
+  object: grafana_instance:a
+
+- user: user:manuel
+  relation: member
+  object: group:a1
+  
+- user: group:a1#member
+  relation: role1
+  object: team:a1
+
+- user: team:a1
+  relation: primary_team
+  object: application:x1
+
+- user: application:x1
+  relation: application
+  object: application_environment:x1_prod
+
+- user: application_environment:x1_prod
+  relation: app_env
+  object: grafana_folder:x1_prod
+
+- user: grafana_folder:x1_prod
+  relation: folder
+  object: grafana_instance:a
+
+- user: group:a2#member
+  relation: role1
+  object: team:a2
+
+- user: team:a2
+  relation: primary_team
+  object: application:x2
+
+- user: application:x2
+  relation: application
+  object: application_environment:x2_prod
+
+- user: application_environment:x2_prod
+  relation: app_env
+  object: grafana_folder:x2_prod
+
+- user: grafana_folder:x2_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a3#member
+  relation: role1
+  object: team:a3
+
+- user: team:a3
+  relation: primary_team
+  object: application:x3
+
+- user: application:x3
+  relation: application
+  object: application_environment:x3_prod
+
+- user: application_environment:x3_prod
+  relation: app_env
+  object: grafana_folder:x3_prod
+
+- user: grafana_folder:x3_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a4#member
+  relation: role1
+  object: team:a4
+
+- user: team:a4
+  relation: primary_team
+  object: application:x4
+
+- user: application:x4
+  relation: application
+  object: application_environment:x4_prod
+
+- user: application_environment:x4_prod
+  relation: app_env
+  object: grafana_folder:x4_prod
+
+- user: grafana_folder:x4_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a5#member
+  relation: role1
+  object: team:a5
+
+- user: team:a5
+  relation: primary_team
+  object: application:x5
+
+- user: application:x5
+  relation: application
+  object: application_environment:x5_prod
+
+- user: application_environment:x5_prod
+  relation: app_env
+  object: grafana_folder:x5_prod
+
+- user: grafana_folder:x5_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a6#member
+  relation: role1
+  object: team:a6
+
+- user: team:a6
+  relation: primary_team
+  object: application:x6
+
+- user: application:x6
+  relation: application
+  object: application_environment:x6_prod
+
+- user: application_environment:x6_prod
+  relation: app_env
+  object: grafana_folder:x6_prod
+
+- user: grafana_folder:x6_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a7#member
+  relation: role1
+  object: team:a7
+
+- user: team:a7
+  relation: primary_team
+  object: application:x7
+
+- user: application:x7
+  relation: application
+  object: application_environment:x7_prod
+
+- user: application_environment:x7_prod
+  relation: app_env
+  object: grafana_folder:x7_prod
+
+- user: grafana_folder:x7_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a8#member
+  relation: role1
+  object: team:a8
+
+- user: team:a8
+  relation: primary_team
+  object: application:x8
+
+- user: application:x8
+  relation: application
+  object: application_environment:x8_prod
+
+- user: application_environment:x8_prod
+  relation: app_env
+  object: grafana_folder:x8_prod
+
+- user: grafana_folder:x8_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a9#member
+  relation: role1
+  object: team:a9
+
+- user: team:a9
+  relation: primary_team
+  object: application:x9
+
+- user: application:x9
+  relation: application
+  object: application_environment:x9_prod
+
+- user: application_environment:x9_prod
+  relation: app_env
+  object: grafana_folder:x9_prod
+
+- user: grafana_folder:x9_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a10#member
+  relation: role1
+  object: team:a10
+
+- user: team:a10
+  relation: primary_team
+  object: application:x10
+
+- user: application:x10
+  relation: application
+  object: application_environment:x10_prod
+
+- user: application_environment:x10_prod
+  relation: app_env
+  object: grafana_folder:x10_prod
+
+- user: grafana_folder:x10_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a11#member
+  relation: role1
+  object: team:a11
+
+- user: team:a11
+  relation: primary_team
+  object: application:x11
+
+- user: application:x11
+  relation: application
+  object: application_environment:x11_prod
+
+- user: application_environment:x11_prod
+  relation: app_env
+  object: grafana_folder:x11_prod
+
+- user: grafana_folder:x11_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a12#member
+  relation: role1
+  object: team:a12
+
+- user: team:a12
+  relation: primary_team
+  object: application:x12
+
+- user: application:x12
+  relation: application
+  object: application_environment:x12_prod
+
+- user: application_environment:x12_prod
+  relation: app_env
+  object: grafana_folder:x12_prod
+
+- user: grafana_folder:x12_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a13#member
+  relation: role1
+  object: team:a13
+
+- user: team:a13
+  relation: primary_team
+  object: application:x13
+
+- user: application:x13
+  relation: application
+  object: application_environment:x13_prod
+
+- user: application_environment:x13_prod
+  relation: app_env
+  object: grafana_folder:x13_prod
+
+- user: grafana_folder:x13_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a14#member
+  relation: role1
+  object: team:a14
+
+- user: team:a14
+  relation: primary_team
+  object: application:x14
+
+- user: application:x14
+  relation: application
+  object: application_environment:x14_prod
+
+- user: application_environment:x14_prod
+  relation: app_env
+  object: grafana_folder:x14_prod
+
+- user: grafana_folder:x14_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a15#member
+  relation: role1
+  object: team:a15
+
+- user: team:a15
+  relation: primary_team
+  object: application:x15
+
+- user: application:x15
+  relation: application
+  object: application_environment:x15_prod
+
+- user: application_environment:x15_prod
+  relation: app_env
+  object: grafana_folder:x15_prod
+
+- user: grafana_folder:x15_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a16#member
+  relation: role1
+  object: team:a16
+
+- user: team:a16
+  relation: primary_team
+  object: application:x16
+
+- user: application:x16
+  relation: application
+  object: application_environment:x16_prod
+
+- user: application_environment:x16_prod
+  relation: app_env
+  object: grafana_folder:x16_prod
+
+- user: grafana_folder:x16_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a17#member
+  relation: role1
+  object: team:a17
+
+- user: team:a17
+  relation: primary_team
+  object: application:x17
+
+- user: application:x17
+  relation: application
+  object: application_environment:x17_prod
+
+- user: application_environment:x17_prod
+  relation: app_env
+  object: grafana_folder:x17_prod
+
+- user: grafana_folder:x17_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a18#member
+  relation: role1
+  object: team:a18
+
+- user: team:a18
+  relation: primary_team
+  object: application:x18
+
+- user: application:x18
+  relation: application
+  object: application_environment:x18_prod
+
+- user: application_environment:x18_prod
+  relation: app_env
+  object: grafana_folder:x18_prod
+
+- user: grafana_folder:x18_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a19#member
+  relation: role1
+  object: team:a19
+
+- user: team:a19
+  relation: primary_team
+  object: application:x19
+
+- user: application:x19
+  relation: application
+  object: application_environment:x19_prod
+
+- user: application_environment:x19_prod
+  relation: app_env
+  object: grafana_folder:x19_prod
+
+- user: grafana_folder:x19_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a20#member
+  relation: role1
+  object: team:a20
+
+- user: team:a20
+  relation: primary_team
+  object: application:x20
+
+- user: application:x20
+  relation: application
+  object: application_environment:x20_prod
+
+- user: application_environment:x20_prod
+  relation: app_env
+  object: grafana_folder:x20_prod
+
+- user: grafana_folder:x20_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a21#member
+  relation: role1
+  object: team:a21
+
+- user: team:a21
+  relation: primary_team
+  object: application:x21
+
+- user: application:x21
+  relation: application
+  object: application_environment:x21_prod
+
+- user: application_environment:x21_prod
+  relation: app_env
+  object: grafana_folder:x21_prod
+
+- user: grafana_folder:x21_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a22#member
+  relation: role1
+  object: team:a22
+
+- user: team:a22
+  relation: primary_team
+  object: application:x22
+
+- user: application:x22
+  relation: application
+  object: application_environment:x22_prod
+
+- user: application_environment:x22_prod
+  relation: app_env
+  object: grafana_folder:x22_prod
+
+- user: grafana_folder:x22_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a23#member
+  relation: role1
+  object: team:a23
+
+- user: team:a23
+  relation: primary_team
+  object: application:x23
+
+- user: application:x23
+  relation: application
+  object: application_environment:x23_prod
+
+- user: application_environment:x23_prod
+  relation: app_env
+  object: grafana_folder:x23_prod
+
+- user: grafana_folder:x23_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a24#member
+  relation: role1
+  object: team:a24
+
+- user: team:a24
+  relation: primary_team
+  object: application:x24
+
+- user: application:x24
+  relation: application
+  object: application_environment:x24_prod
+
+- user: application_environment:x24_prod
+  relation: app_env
+  object: grafana_folder:x24_prod
+
+- user: grafana_folder:x24_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a25#member
+  relation: role1
+  object: team:a25
+
+- user: team:a25
+  relation: primary_team
+  object: application:x25
+
+- user: application:x25
+  relation: application
+  object: application_environment:x25_prod
+
+- user: application_environment:x25_prod
+  relation: app_env
+  object: grafana_folder:x25_prod
+
+- user: grafana_folder:x25_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a26#member
+  relation: role1
+  object: team:a26
+
+- user: team:a26
+  relation: primary_team
+  object: application:x26
+
+- user: application:x26
+  relation: application
+  object: application_environment:x26_prod
+
+- user: application_environment:x26_prod
+  relation: app_env
+  object: grafana_folder:x26_prod
+
+- user: grafana_folder:x26_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a27#member
+  relation: role1
+  object: team:a27
+
+- user: team:a27
+  relation: primary_team
+  object: application:x27
+
+- user: application:x27
+  relation: application
+  object: application_environment:x27_prod
+
+- user: application_environment:x27_prod
+  relation: app_env
+  object: grafana_folder:x27_prod
+
+- user: grafana_folder:x27_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a28#member
+  relation: role1
+  object: team:a28
+
+- user: team:a28
+  relation: primary_team
+  object: application:x28
+
+- user: application:x28
+  relation: application
+  object: application_environment:x28_prod
+
+- user: application_environment:x28_prod
+  relation: app_env
+  object: grafana_folder:x28_prod
+
+- user: grafana_folder:x28_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a29#member
+  relation: role1
+  object: team:a29
+
+- user: team:a29
+  relation: primary_team
+  object: application:x29
+
+- user: application:x29
+  relation: application
+  object: application_environment:x29_prod
+
+- user: application_environment:x29_prod
+  relation: app_env
+  object: grafana_folder:x29_prod
+
+- user: grafana_folder:x29_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a30#member
+  relation: role1
+  object: team:a30
+
+- user: team:a30
+  relation: primary_team
+  object: application:x30
+
+- user: application:x30
+  relation: application
+  object: application_environment:x30_prod
+
+- user: application_environment:x30_prod
+  relation: app_env
+  object: grafana_folder:x30_prod
+
+- user: grafana_folder:x30_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a31#member
+  relation: role1
+  object: team:a31
+
+- user: team:a31
+  relation: primary_team
+  object: application:x31
+
+- user: application:x31
+  relation: application
+  object: application_environment:x31_prod
+
+- user: application_environment:x31_prod
+  relation: app_env
+  object: grafana_folder:x31_prod
+
+- user: grafana_folder:x31_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a32#member
+  relation: role1
+  object: team:a32
+
+- user: team:a32
+  relation: primary_team
+  object: application:x32
+
+- user: application:x32
+  relation: application
+  object: application_environment:x32_prod
+
+- user: application_environment:x32_prod
+  relation: app_env
+  object: grafana_folder:x32_prod
+
+- user: grafana_folder:x32_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a33#member
+  relation: role1
+  object: team:a33
+
+- user: team:a33
+  relation: primary_team
+  object: application:x33
+
+- user: application:x33
+  relation: application
+  object: application_environment:x33_prod
+
+- user: application_environment:x33_prod
+  relation: app_env
+  object: grafana_folder:x33_prod
+
+- user: grafana_folder:x33_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a34#member
+  relation: role1
+  object: team:a34
+
+- user: team:a34
+  relation: primary_team
+  object: application:x34
+
+- user: application:x34
+  relation: application
+  object: application_environment:x34_prod
+
+- user: application_environment:x34_prod
+  relation: app_env
+  object: grafana_folder:x34_prod
+
+- user: grafana_folder:x34_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a35#member
+  relation: role1
+  object: team:a35
+
+- user: team:a35
+  relation: primary_team
+  object: application:x35
+
+- user: application:x35
+  relation: application
+  object: application_environment:x35_prod
+
+- user: application_environment:x35_prod
+  relation: app_env
+  object: grafana_folder:x35_prod
+
+- user: grafana_folder:x35_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a36#member
+  relation: role1
+  object: team:a36
+
+- user: team:a36
+  relation: primary_team
+  object: application:x36
+
+- user: application:x36
+  relation: application
+  object: application_environment:x36_prod
+
+- user: application_environment:x36_prod
+  relation: app_env
+  object: grafana_folder:x36_prod
+
+- user: grafana_folder:x36_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a37#member
+  relation: role1
+  object: team:a37
+
+- user: team:a37
+  relation: primary_team
+  object: application:x37
+
+- user: application:x37
+  relation: application
+  object: application_environment:x37_prod
+
+- user: application_environment:x37_prod
+  relation: app_env
+  object: grafana_folder:x37_prod
+
+- user: grafana_folder:x37_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a38#member
+  relation: role1
+  object: team:a38
+
+- user: team:a38
+  relation: primary_team
+  object: application:x38
+
+- user: application:x38
+  relation: application
+  object: application_environment:x38_prod
+
+- user: application_environment:x38_prod
+  relation: app_env
+  object: grafana_folder:x38_prod
+
+- user: grafana_folder:x38_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a39#member
+  relation: role1
+  object: team:a39
+
+- user: team:a39
+  relation: primary_team
+  object: application:x39
+
+- user: application:x39
+  relation: application
+  object: application_environment:x39_prod
+
+- user: application_environment:x39_prod
+  relation: app_env
+  object: grafana_folder:x39_prod
+
+- user: grafana_folder:x39_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a40#member
+  relation: role1
+  object: team:a40
+
+- user: team:a40
+  relation: primary_team
+  object: application:x40
+
+- user: application:x40
+  relation: application
+  object: application_environment:x40_prod
+
+- user: application_environment:x40_prod
+  relation: app_env
+  object: grafana_folder:x40_prod
+
+- user: grafana_folder:x40_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a41#member
+  relation: role1
+  object: team:a41
+
+- user: team:a41
+  relation: primary_team
+  object: application:x41
+
+- user: application:x41
+  relation: application
+  object: application_environment:x41_prod
+
+- user: application_environment:x41_prod
+  relation: app_env
+  object: grafana_folder:x41_prod
+
+- user: grafana_folder:x41_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a42#member
+  relation: role1
+  object: team:a42
+
+- user: team:a42
+  relation: primary_team
+  object: application:x42
+
+- user: application:x42
+  relation: application
+  object: application_environment:x42_prod
+
+- user: application_environment:x42_prod
+  relation: app_env
+  object: grafana_folder:x42_prod
+
+- user: grafana_folder:x42_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a43#member
+  relation: role1
+  object: team:a43
+
+- user: team:a43
+  relation: primary_team
+  object: application:x43
+
+- user: application:x43
+  relation: application
+  object: application_environment:x43_prod
+
+- user: application_environment:x43_prod
+  relation: app_env
+  object: grafana_folder:x43_prod
+
+- user: grafana_folder:x43_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a44#member
+  relation: role1
+  object: team:a44
+
+- user: team:a44
+  relation: primary_team
+  object: application:x44
+
+- user: application:x44
+  relation: application
+  object: application_environment:x44_prod
+
+- user: application_environment:x44_prod
+  relation: app_env
+  object: grafana_folder:x44_prod
+
+- user: grafana_folder:x44_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a45#member
+  relation: role1
+  object: team:a45
+
+- user: team:a45
+  relation: primary_team
+  object: application:x45
+
+- user: application:x45
+  relation: application
+  object: application_environment:x45_prod
+
+- user: application_environment:x45_prod
+  relation: app_env
+  object: grafana_folder:x45_prod
+
+- user: grafana_folder:x45_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a46#member
+  relation: role1
+  object: team:a46
+
+- user: team:a46
+  relation: primary_team
+  object: application:x46
+
+- user: application:x46
+  relation: application
+  object: application_environment:x46_prod
+
+- user: application_environment:x46_prod
+  relation: app_env
+  object: grafana_folder:x46_prod
+
+- user: grafana_folder:x46_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a47#member
+  relation: role1
+  object: team:a47
+
+- user: team:a47
+  relation: primary_team
+  object: application:x47
+
+- user: application:x47
+  relation: application
+  object: application_environment:x47_prod
+
+- user: application_environment:x47_prod
+  relation: app_env
+  object: grafana_folder:x47_prod
+
+- user: grafana_folder:x47_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a48#member
+  relation: role1
+  object: team:a48
+
+- user: team:a48
+  relation: primary_team
+  object: application:x48
+
+- user: application:x48
+  relation: application
+  object: application_environment:x48_prod
+
+- user: application_environment:x48_prod
+  relation: app_env
+  object: grafana_folder:x48_prod
+
+- user: grafana_folder:x48_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a49#member
+  relation: role1
+  object: team:a49
+
+- user: team:a49
+  relation: primary_team
+  object: application:x49
+
+- user: application:x49
+  relation: application
+  object: application_environment:x49_prod
+
+- user: application_environment:x49_prod
+  relation: app_env
+  object: grafana_folder:x49_prod
+
+- user: grafana_folder:x49_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a50#member
+  relation: role1
+  object: team:a50
+
+- user: team:a50
+  relation: primary_team
+  object: application:x50
+
+- user: application:x50
+  relation: application
+  object: application_environment:x50_prod
+
+- user: application_environment:x50_prod
+  relation: app_env
+  object: grafana_folder:x50_prod
+
+- user: grafana_folder:x50_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a51#member
+  relation: role1
+  object: team:a51
+
+- user: team:a51
+  relation: primary_team
+  object: application:x51
+
+- user: application:x51
+  relation: application
+  object: application_environment:x51_prod
+
+- user: application_environment:x51_prod
+  relation: app_env
+  object: grafana_folder:x51_prod
+
+- user: grafana_folder:x51_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a52#member
+  relation: role1
+  object: team:a52
+
+- user: team:a52
+  relation: primary_team
+  object: application:x52
+
+- user: application:x52
+  relation: application
+  object: application_environment:x52_prod
+
+- user: application_environment:x52_prod
+  relation: app_env
+  object: grafana_folder:x52_prod
+
+- user: grafana_folder:x52_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a53#member
+  relation: role1
+  object: team:a53
+
+- user: team:a53
+  relation: primary_team
+  object: application:x53
+
+- user: application:x53
+  relation: application
+  object: application_environment:x53_prod
+
+- user: application_environment:x53_prod
+  relation: app_env
+  object: grafana_folder:x53_prod
+
+- user: grafana_folder:x53_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a54#member
+  relation: role1
+  object: team:a54
+
+- user: team:a54
+  relation: primary_team
+  object: application:x54
+
+- user: application:x54
+  relation: application
+  object: application_environment:x54_prod
+
+- user: application_environment:x54_prod
+  relation: app_env
+  object: grafana_folder:x54_prod
+
+- user: grafana_folder:x54_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a55#member
+  relation: role1
+  object: team:a55
+
+- user: team:a55
+  relation: primary_team
+  object: application:x55
+
+- user: application:x55
+  relation: application
+  object: application_environment:x55_prod
+
+- user: application_environment:x55_prod
+  relation: app_env
+  object: grafana_folder:x55_prod
+
+- user: grafana_folder:x55_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a56#member
+  relation: role1
+  object: team:a56
+
+- user: team:a56
+  relation: primary_team
+  object: application:x56
+
+- user: application:x56
+  relation: application
+  object: application_environment:x56_prod
+
+- user: application_environment:x56_prod
+  relation: app_env
+  object: grafana_folder:x56_prod
+
+- user: grafana_folder:x56_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a57#member
+  relation: role1
+  object: team:a57
+
+- user: team:a57
+  relation: primary_team
+  object: application:x57
+
+- user: application:x57
+  relation: application
+  object: application_environment:x57_prod
+
+- user: application_environment:x57_prod
+  relation: app_env
+  object: grafana_folder:x57_prod
+
+- user: grafana_folder:x57_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a58#member
+  relation: role1
+  object: team:a58
+
+- user: team:a58
+  relation: primary_team
+  object: application:x58
+
+- user: application:x58
+  relation: application
+  object: application_environment:x58_prod
+
+- user: application_environment:x58_prod
+  relation: app_env
+  object: grafana_folder:x58_prod
+
+- user: grafana_folder:x58_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a59#member
+  relation: role1
+  object: team:a59
+
+- user: team:a59
+  relation: primary_team
+  object: application:x59
+
+- user: application:x59
+  relation: application
+  object: application_environment:x59_prod
+
+- user: application_environment:x59_prod
+  relation: app_env
+  object: grafana_folder:x59_prod
+
+- user: grafana_folder:x59_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a60#member
+  relation: role1
+  object: team:a60
+
+- user: team:a60
+  relation: primary_team
+  object: application:x60
+
+- user: application:x60
+  relation: application
+  object: application_environment:x60_prod
+
+- user: application_environment:x60_prod
+  relation: app_env
+  object: grafana_folder:x60_prod
+
+- user: grafana_folder:x60_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a61#member
+  relation: role1
+  object: team:a61
+
+- user: team:a61
+  relation: primary_team
+  object: application:x61
+
+- user: application:x61
+  relation: application
+  object: application_environment:x61_prod
+
+- user: application_environment:x61_prod
+  relation: app_env
+  object: grafana_folder:x61_prod
+
+- user: grafana_folder:x61_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a62#member
+  relation: role1
+  object: team:a62
+
+- user: team:a62
+  relation: primary_team
+  object: application:x62
+
+- user: application:x62
+  relation: application
+  object: application_environment:x62_prod
+
+- user: application_environment:x62_prod
+  relation: app_env
+  object: grafana_folder:x62_prod
+
+- user: grafana_folder:x62_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a63#member
+  relation: role1
+  object: team:a63
+
+- user: team:a63
+  relation: primary_team
+  object: application:x63
+
+- user: application:x63
+  relation: application
+  object: application_environment:x63_prod
+
+- user: application_environment:x63_prod
+  relation: app_env
+  object: grafana_folder:x63_prod
+
+- user: grafana_folder:x63_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a64#member
+  relation: role1
+  object: team:a64
+
+- user: team:a64
+  relation: primary_team
+  object: application:x64
+
+- user: application:x64
+  relation: application
+  object: application_environment:x64_prod
+
+- user: application_environment:x64_prod
+  relation: app_env
+  object: grafana_folder:x64_prod
+
+- user: grafana_folder:x64_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a65#member
+  relation: role1
+  object: team:a65
+
+- user: team:a65
+  relation: primary_team
+  object: application:x65
+
+- user: application:x65
+  relation: application
+  object: application_environment:x65_prod
+
+- user: application_environment:x65_prod
+  relation: app_env
+  object: grafana_folder:x65_prod
+
+- user: grafana_folder:x65_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a66#member
+  relation: role1
+  object: team:a66
+
+- user: team:a66
+  relation: primary_team
+  object: application:x66
+
+- user: application:x66
+  relation: application
+  object: application_environment:x66_prod
+
+- user: application_environment:x66_prod
+  relation: app_env
+  object: grafana_folder:x66_prod
+
+- user: grafana_folder:x66_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a67#member
+  relation: role1
+  object: team:a67
+
+- user: team:a67
+  relation: primary_team
+  object: application:x67
+
+- user: application:x67
+  relation: application
+  object: application_environment:x67_prod
+
+- user: application_environment:x67_prod
+  relation: app_env
+  object: grafana_folder:x67_prod
+
+- user: grafana_folder:x67_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a68#member
+  relation: role1
+  object: team:a68
+
+- user: team:a68
+  relation: primary_team
+  object: application:x68
+
+- user: application:x68
+  relation: application
+  object: application_environment:x68_prod
+
+- user: application_environment:x68_prod
+  relation: app_env
+  object: grafana_folder:x68_prod
+
+- user: grafana_folder:x68_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a69#member
+  relation: role1
+  object: team:a69
+
+- user: team:a69
+  relation: primary_team
+  object: application:x69
+
+- user: application:x69
+  relation: application
+  object: application_environment:x69_prod
+
+- user: application_environment:x69_prod
+  relation: app_env
+  object: grafana_folder:x69_prod
+
+- user: grafana_folder:x69_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a70#member
+  relation: role1
+  object: team:a70
+
+- user: team:a70
+  relation: primary_team
+  object: application:x70
+
+- user: application:x70
+  relation: application
+  object: application_environment:x70_prod
+
+- user: application_environment:x70_prod
+  relation: app_env
+  object: grafana_folder:x70_prod
+
+- user: grafana_folder:x70_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a71#member
+  relation: role1
+  object: team:a71
+
+- user: team:a71
+  relation: primary_team
+  object: application:x71
+
+- user: application:x71
+  relation: application
+  object: application_environment:x71_prod
+
+- user: application_environment:x71_prod
+  relation: app_env
+  object: grafana_folder:x71_prod
+
+- user: grafana_folder:x71_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a72#member
+  relation: role1
+  object: team:a72
+
+- user: team:a72
+  relation: primary_team
+  object: application:x72
+
+- user: application:x72
+  relation: application
+  object: application_environment:x72_prod
+
+- user: application_environment:x72_prod
+  relation: app_env
+  object: grafana_folder:x72_prod
+
+- user: grafana_folder:x72_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a73#member
+  relation: role1
+  object: team:a73
+
+- user: team:a73
+  relation: primary_team
+  object: application:x73
+
+- user: application:x73
+  relation: application
+  object: application_environment:x73_prod
+
+- user: application_environment:x73_prod
+  relation: app_env
+  object: grafana_folder:x73_prod
+
+- user: grafana_folder:x73_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a74#member
+  relation: role1
+  object: team:a74
+
+- user: team:a74
+  relation: primary_team
+  object: application:x74
+
+- user: application:x74
+  relation: application
+  object: application_environment:x74_prod
+
+- user: application_environment:x74_prod
+  relation: app_env
+  object: grafana_folder:x74_prod
+
+- user: grafana_folder:x74_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a75#member
+  relation: role1
+  object: team:a75
+
+- user: team:a75
+  relation: primary_team
+  object: application:x75
+
+- user: application:x75
+  relation: application
+  object: application_environment:x75_prod
+
+- user: application_environment:x75_prod
+  relation: app_env
+  object: grafana_folder:x75_prod
+
+- user: grafana_folder:x75_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a76#member
+  relation: role1
+  object: team:a76
+
+- user: team:a76
+  relation: primary_team
+  object: application:x76
+
+- user: application:x76
+  relation: application
+  object: application_environment:x76_prod
+
+- user: application_environment:x76_prod
+  relation: app_env
+  object: grafana_folder:x76_prod
+
+- user: grafana_folder:x76_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a77#member
+  relation: role1
+  object: team:a77
+
+- user: team:a77
+  relation: primary_team
+  object: application:x77
+
+- user: application:x77
+  relation: application
+  object: application_environment:x77_prod
+
+- user: application_environment:x77_prod
+  relation: app_env
+  object: grafana_folder:x77_prod
+
+- user: grafana_folder:x77_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a78#member
+  relation: role1
+  object: team:a78
+
+- user: team:a78
+  relation: primary_team
+  object: application:x78
+
+- user: application:x78
+  relation: application
+  object: application_environment:x78_prod
+
+- user: application_environment:x78_prod
+  relation: app_env
+  object: grafana_folder:x78_prod
+
+- user: grafana_folder:x78_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a79#member
+  relation: role1
+  object: team:a79
+
+- user: team:a79
+  relation: primary_team
+  object: application:x79
+
+- user: application:x79
+  relation: application
+  object: application_environment:x79_prod
+
+- user: application_environment:x79_prod
+  relation: app_env
+  object: grafana_folder:x79_prod
+
+- user: grafana_folder:x79_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a80#member
+  relation: role1
+  object: team:a80
+
+- user: team:a80
+  relation: primary_team
+  object: application:x80
+
+- user: application:x80
+  relation: application
+  object: application_environment:x80_prod
+
+- user: application_environment:x80_prod
+  relation: app_env
+  object: grafana_folder:x80_prod
+
+- user: grafana_folder:x80_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a81#member
+  relation: role1
+  object: team:a81
+
+- user: team:a81
+  relation: primary_team
+  object: application:x81
+
+- user: application:x81
+  relation: application
+  object: application_environment:x81_prod
+
+- user: application_environment:x81_prod
+  relation: app_env
+  object: grafana_folder:x81_prod
+
+- user: grafana_folder:x81_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a82#member
+  relation: role1
+  object: team:a82
+
+- user: team:a82
+  relation: primary_team
+  object: application:x82
+
+- user: application:x82
+  relation: application
+  object: application_environment:x82_prod
+
+- user: application_environment:x82_prod
+  relation: app_env
+  object: grafana_folder:x82_prod
+
+- user: grafana_folder:x82_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a83#member
+  relation: role1
+  object: team:a83
+
+- user: team:a83
+  relation: primary_team
+  object: application:x83
+
+- user: application:x83
+  relation: application
+  object: application_environment:x83_prod
+
+- user: application_environment:x83_prod
+  relation: app_env
+  object: grafana_folder:x83_prod
+
+- user: grafana_folder:x83_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a84#member
+  relation: role1
+  object: team:a84
+
+- user: team:a84
+  relation: primary_team
+  object: application:x84
+
+- user: application:x84
+  relation: application
+  object: application_environment:x84_prod
+
+- user: application_environment:x84_prod
+  relation: app_env
+  object: grafana_folder:x84_prod
+
+- user: grafana_folder:x84_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a85#member
+  relation: role1
+  object: team:a85
+
+- user: team:a85
+  relation: primary_team
+  object: application:x85
+
+- user: application:x85
+  relation: application
+  object: application_environment:x85_prod
+
+- user: application_environment:x85_prod
+  relation: app_env
+  object: grafana_folder:x85_prod
+
+- user: grafana_folder:x85_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a86#member
+  relation: role1
+  object: team:a86
+
+- user: team:a86
+  relation: primary_team
+  object: application:x86
+
+- user: application:x86
+  relation: application
+  object: application_environment:x86_prod
+
+- user: application_environment:x86_prod
+  relation: app_env
+  object: grafana_folder:x86_prod
+
+- user: grafana_folder:x86_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a87#member
+  relation: role1
+  object: team:a87
+
+- user: team:a87
+  relation: primary_team
+  object: application:x87
+
+- user: application:x87
+  relation: application
+  object: application_environment:x87_prod
+
+- user: application_environment:x87_prod
+  relation: app_env
+  object: grafana_folder:x87_prod
+
+- user: grafana_folder:x87_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a88#member
+  relation: role1
+  object: team:a88
+
+- user: team:a88
+  relation: primary_team
+  object: application:x88
+
+- user: application:x88
+  relation: application
+  object: application_environment:x88_prod
+
+- user: application_environment:x88_prod
+  relation: app_env
+  object: grafana_folder:x88_prod
+
+- user: grafana_folder:x88_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a89#member
+  relation: role1
+  object: team:a89
+
+- user: team:a89
+  relation: primary_team
+  object: application:x89
+
+- user: application:x89
+  relation: application
+  object: application_environment:x89_prod
+
+- user: application_environment:x89_prod
+  relation: app_env
+  object: grafana_folder:x89_prod
+
+- user: grafana_folder:x89_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a90#member
+  relation: role1
+  object: team:a90
+
+- user: team:a90
+  relation: primary_team
+  object: application:x90
+
+- user: application:x90
+  relation: application
+  object: application_environment:x90_prod
+
+- user: application_environment:x90_prod
+  relation: app_env
+  object: grafana_folder:x90_prod
+
+- user: grafana_folder:x90_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a91#member
+  relation: role1
+  object: team:a91
+
+- user: team:a91
+  relation: primary_team
+  object: application:x91
+
+- user: application:x91
+  relation: application
+  object: application_environment:x91_prod
+
+- user: application_environment:x91_prod
+  relation: app_env
+  object: grafana_folder:x91_prod
+
+- user: grafana_folder:x91_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a92#member
+  relation: role1
+  object: team:a92
+
+- user: team:a92
+  relation: primary_team
+  object: application:x92
+
+- user: application:x92
+  relation: application
+  object: application_environment:x92_prod
+
+- user: application_environment:x92_prod
+  relation: app_env
+  object: grafana_folder:x92_prod
+
+- user: grafana_folder:x92_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a93#member
+  relation: role1
+  object: team:a93
+
+- user: team:a93
+  relation: primary_team
+  object: application:x93
+
+- user: application:x93
+  relation: application
+  object: application_environment:x93_prod
+
+- user: application_environment:x93_prod
+  relation: app_env
+  object: grafana_folder:x93_prod
+
+- user: grafana_folder:x93_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a94#member
+  relation: role1
+  object: team:a94
+
+- user: team:a94
+  relation: primary_team
+  object: application:x94
+
+- user: application:x94
+  relation: application
+  object: application_environment:x94_prod
+
+- user: application_environment:x94_prod
+  relation: app_env
+  object: grafana_folder:x94_prod
+
+- user: grafana_folder:x94_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a95#member
+  relation: role1
+  object: team:a95
+
+- user: team:a95
+  relation: primary_team
+  object: application:x95
+
+- user: application:x95
+  relation: application
+  object: application_environment:x95_prod
+
+- user: application_environment:x95_prod
+  relation: app_env
+  object: grafana_folder:x95_prod
+
+- user: grafana_folder:x95_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a96#member
+  relation: role1
+  object: team:a96
+
+- user: team:a96
+  relation: primary_team
+  object: application:x96
+
+- user: application:x96
+  relation: application
+  object: application_environment:x96_prod
+
+- user: application_environment:x96_prod
+  relation: app_env
+  object: grafana_folder:x96_prod
+
+- user: grafana_folder:x96_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a97#member
+  relation: role1
+  object: team:a97
+
+- user: team:a97
+  relation: primary_team
+  object: application:x97
+
+- user: application:x97
+  relation: application
+  object: application_environment:x97_prod
+
+- user: application_environment:x97_prod
+  relation: app_env
+  object: grafana_folder:x97_prod
+
+- user: grafana_folder:x97_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a98#member
+  relation: role1
+  object: team:a98
+
+- user: team:a98
+  relation: primary_team
+  object: application:x98
+
+- user: application:x98
+  relation: application
+  object: application_environment:x98_prod
+
+- user: application_environment:x98_prod
+  relation: app_env
+  object: grafana_folder:x98_prod
+
+- user: grafana_folder:x98_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a99#member
+  relation: role1
+  object: team:a99
+
+- user: team:a99
+  relation: primary_team
+  object: application:x99
+
+- user: application:x99
+  relation: application
+  object: application_environment:x99_prod
+
+- user: application_environment:x99_prod
+  relation: app_env
+  object: grafana_folder:x99_prod
+
+- user: grafana_folder:x99_prod
+  relation: folder
+  object: grafana_instance:a
+
+
+
+- user: group:a100#member
+  relation: role1
+  object: team:a100
+
+- user: team:a100
+  relation: primary_team
+  object: application:x100
+
+- user: application:x100
+  relation: application
+  object: application_environment:x100_prod
+
+- user: application_environment:x100_prod
+  relation: app_env
+  object: grafana_folder:x100_prod
+
+- user: grafana_folder:x100_prod
+  relation: folder
+  object: grafana_instance:a
+
+
